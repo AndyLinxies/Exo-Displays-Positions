@@ -1,0 +1,87 @@
+body {
+  margin: 0
+}
+
+/* Exo margin */
+section{
+  background-color:  #4da6ff;
+}
+h2{
+  background-color: yellow;
+  border: solid 2px;
+  font-size: 50px;
+}
+.tart1{
+  margin: 50px;
+}
+.tart2{
+  margin-left: 20%;
+}
+.tart3{
+  margin: auto;
+}
+
+/* fin exo margin */
+
+/* exo padding */
+.tart4{
+  padding: 50px;
+}
+.tart5{
+  padding-left: 20%;
+}
+
+/* fin exo padding */
+
+/* exo display */
+.tart6{
+  margin: 50px;
+  /*MARGIN DEPLACE EXTERIEUR DU CARRE*/
+  padding: 50px;
+  /*PADDING DEPLACE INTERIEUR DU CARRE*/
+  display: inline-block;
+}
+#andro{
+  display: none;
+}
+/* fin exo display */
+
+/* exo float */
+.tart7{
+  width: auto;
+  float: right; /*pas importatnt*/
+}
+.float{
+  overflow:auto;
+  /*overflow scroll va faire apparaitre une barre de Nav a droite pour voir le contenu de la section. auto le positionne le mieux possible*/
+}
+/* fin exo float */
+
+/*Exo position*/
+.tart8{
+  position: absolute;
+  background-color: green;
+  margin: 0;
+  top:0; /*Va tout au dessus*/
+  position: fixed;
+}
+.sectPos{
+  position: relative;
+  top: 50px; /*Depl en haut par rapport a la section car elle est en relative*/
+  left: 50%;
+}
+/*Fin exo position*/
+
+/* exo position (priorité) */
+.androDer{
+  background-color: blue;
+  margin-left: 100px;
+  position: absolute;
+}
+.tartDer{
+  position: absolute;
+  left: 220px; /*Seulement en combi avec positions absolute et bouge de gauche==>droite≠*/
+  z-index: 1; /*La tartine passe devant sur l'axe Z 
+  ca va de 0(par defaut), 1 et 2*/
+}
+/* fin exo position (priorité) */
